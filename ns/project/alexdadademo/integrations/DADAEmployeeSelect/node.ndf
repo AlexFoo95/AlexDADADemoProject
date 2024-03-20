@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">alex.foo</value>
-    <value name="lastModifiedDate">1710918717958</value>
+    <value name="lastModifiedDate">1710918799411</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">ec312f6baff748faaa581f5fea04b19c</value>
       <value name="group">default</value>
@@ -182,6 +182,45 @@
         <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="name">FINALLY</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">2</number>
+      </record>
+      <record name="/2/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">8</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/2/0/0" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/1" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/2" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/3" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/4" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/5" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/6" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/7" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/0/8" javaclass="com.wm.util.Values">
       </record>
     </record>
   </record>
