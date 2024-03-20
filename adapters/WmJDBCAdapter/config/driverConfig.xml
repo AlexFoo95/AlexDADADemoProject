@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<driverDetails>
+    <database>
+        <name>MSSQL</name>
+        <driver inUse="false" exists="true">
+            <name>MSSQL</name>
+            <path>drivers/MSSQL/MSSQL</path>
+        </driver>
+    </database>
+</driverDetails>
