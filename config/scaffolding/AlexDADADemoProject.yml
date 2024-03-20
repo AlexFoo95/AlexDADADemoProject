@@ -16,26 +16,53 @@ services:
   - name: AlexDADADemoProject
     version: "1.0"
 configurationVariables:
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.trustStore
+  : ""
+  jdbc.jdbcTestPool.waitingThread: "0"
+  jdbc.jdbcTestPool.minConns: "0"
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.driverType
+  : MSSQL
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.startupBackoffSecs
   : "10"
+  jdbc.jdbcTestPool.expireTime: "60000"
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.transactionType
+  : NO_TRANSACTION
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.maximumPoolSize
   : "10"
   jdbc.jdbcTestPool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/jdbcTestPool.log;ddtdbg.ProtocolTraceShowTime=true
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.datasourceClass
+  : com.microsoft.sqlserver.jdbc.SQLServerDataSource
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.blockingTimeout
+  : "1000"
   jdbc.jdbcTestPool.maxConns: "10"
   jdbc.jdbcTestPool.userid: root
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.serverName
   : SAG-H9GTVL3
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.password
   : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+  jdbc.jdbcTestPool.driverAlias: MySQL Database Java Connector Driver
   jdbc.jdbcTestPool.spyenabled: "false"
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.poolIncrementSize
+  : "1"
   jdbc.jdbcTestPool.snoopenabled: "false"
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.networkProtocol
+  : ""
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionEnabled
   : "false"
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.expireTimeout
   : "1000"
+  jdbc.jdbcTestPool.password: "{AES}er+I3U8nDVm8F4DBRST1+A=="
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.databaseName
   : Demo
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.minimumPoolSize
+  : "0"
   jdbc.jdbcTestPool.spyparms: SpyAttributes=(log=(file)logs/spy/jdbcTestPool.log;logTName=yes;timestamp=yes)
+  jdbc.jdbcTestPool.dbURL: jdbc:mysql://mysql.test.local:3306/webm
+  jdbc.jdbcTestPool.poolThreshold: "0"
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.keyStore
   : ""
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.portNumber
@@ -44,35 +71,8 @@ configurationVariables:
   : Administrator
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.heartBeatInterval
   : "0"
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.startupRetryCount
-  : "0"
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.trustStore
-  : ""
-  jdbc.jdbcTestPool.waitingThread: "0"
-  jdbc.jdbcTestPool.minConns: "0"
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.driverType
-  : MSSQL
-  jdbc.jdbcTestPool.expireTime: "60000"
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.transactionType
-  : NO_TRANSACTION
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.datasourceClass
-  : com.microsoft.sqlserver.jdbc.SQLServerDataSource
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.otherProperties
-  : loginTimeout=60;
-  jdbc.jdbcTestPool.driverAlias: MySQL Database Java Connector Driver
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.dbType
-  : MSSQL
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.poolIncrementSize
-  : "1"
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.networkProtocol
-  : ""
-  jdbc.jdbcTestPool.password: "{AES}er+I3U8nDVm8F4DBRST1+A=="
-  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.minimumPoolSize
-  : "0"
-  jdbc.jdbcTestPool.dbURL: jdbc:mysql://mysql.test.local:3306/webm
-  jdbc.jdbcTestPool.poolThreshold: "0"
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.poolable
   : "false"
+  ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionManagerSettings.startupRetryCount
+  : "0"
   jdbc.jdbcTestPool.useSSL: "false"
