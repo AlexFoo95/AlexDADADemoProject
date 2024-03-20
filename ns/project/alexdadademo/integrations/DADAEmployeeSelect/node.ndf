@@ -62,9 +62,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">alex.foo</value>
-    <value name="createdDate">1710905947754</value>
-    <value name="lastModifiedDate">1710905947754</value>
+    <value name="lastModifiedBy">alex.foo</value>
+    <value name="lastModifiedDate">1710906006395</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -77,6 +76,7 @@
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="name">TRY</value>
         <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -110,8 +110,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1">
         </array>
-        <array name="mapSet" type="object" depth="1">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1">
         </array>
         <array name="outputMap" type="object" depth="1">
@@ -124,6 +123,10 @@
         <value name="connectionNSName">project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Demo_Employee</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>

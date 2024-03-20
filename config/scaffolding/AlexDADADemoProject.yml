@@ -15,6 +15,14 @@ services:
   packages:
   - name: AlexDADADemoProject
     version: "1.0"
+- serviceName: project.alexdadademo.integrations:DADAEmployeeSelect
+  packages:
+  - name: AlexDADADemoProject
+    version: "1.0"
+- serviceName: project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DADA_Employee_Select
+  packages:
+  - name: AlexDADADemoProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.trustStore
   : ""
