@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">alex.foo</value>
-    <value name="lastModifiedDate">1710918616189</value>
+    <value name="lastModifiedDate">1710918717958</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">ec312f6baff748faaa581f5fea04b19c</value>
       <value name="group">default</value>
@@ -128,6 +128,23 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
+      <record name="/0/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">3</number>
+        <number name="nodeIndex" type="Long">1</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/1/0"/>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
         <value name="itemType">CONTROLS</value>
