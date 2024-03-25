@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">alex.foo</value>
-    <value name="createdDate">1711347421511</value>
-    <value name="lastModifiedDate">1711347421511</value>
+    <value name="lastModifiedBy">alex.foo</value>
+    <value name="lastModifiedDate">1711347429471</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
+      <value name="id">ec312f6baff748faaa581f5fea04b19c</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">Alex_EdgeRuntime</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">OpenWeatherTest</value>
     <value name="description"></value>
