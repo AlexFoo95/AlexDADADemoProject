@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">alex.foo</value>
-    <value name="lastModifiedDate">1710919138817</value>
+    <value name="lastModifiedDate">1711346953030</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">ec312f6baff748faaa581f5fea04b19c</value>
       <value name="group">default</value>
@@ -184,6 +184,25 @@
       <record name="/0/1/2" javaclass="com.wm.util.Values">
       </record>
       <record name="/0/1/3" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/0/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">4</number>
+        <number name="nodeIndex" type="Long">2</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
