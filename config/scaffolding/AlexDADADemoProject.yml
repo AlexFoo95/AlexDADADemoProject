@@ -10,6 +10,11 @@ packages:
 - name: WmJDBCAdapter
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
+- name: OpenWeatherClient
+  gitServerName: RAHS_Not_SAG
+  gitUrl: https://github.com/rahuldemocenter
+  gitUsername: rahuldemocenter
+  gitBranch: main
 services:
 - serviceName: project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Demo_Employee
   packages:
