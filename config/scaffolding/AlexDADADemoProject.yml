@@ -15,6 +15,11 @@ packages:
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: rahuldemocenter
   gitBranch: main
+- name: AlexDADAGitProject
+  gitServerName: AlexGit
+  gitUrl: https://github.com/AlexFoo95
+  gitUsername: AlexFoo95
+  gitBranch: master
 services:
 - serviceName: project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Demo_Employee
   packages:
