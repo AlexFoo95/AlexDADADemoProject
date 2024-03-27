@@ -15,6 +15,11 @@ packages:
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: rahuldemocenter
   gitBranch: main
+- name: PIE-87920
+  gitServerName: ArthurGithub
+  gitUrl: https://github.com/agohpc
+  gitUsername: agohpc
+  gitBranch: master
 - name: AlexDADAGitProject
   gitServerName: AlexGit
   gitUrl: https://github.com/AlexFoo95
@@ -63,6 +68,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.alexdadademo.integrations:GitTesting
+  packages:
+  - name: AlexDADADemoProject
+    version: "1.0"
+  - name: AlexDADAGitProject
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: GitTest:GitTest
+  packages:
+  - name: AlexDADAGitProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.trustStore
   : ""
