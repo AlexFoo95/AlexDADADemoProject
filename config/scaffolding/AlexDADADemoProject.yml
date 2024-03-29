@@ -25,6 +25,11 @@ packages:
   gitUrl: https://github.com/AlexFoo95
   gitUsername: AlexFoo95
   gitBranch: master
+- name: AlexDADAGit2Project
+  gitServerName: AlexGit
+  gitUrl: https://github.com/AlexFoo95
+  gitUsername: AlexFoo95
+  gitBranch: master
 services:
 - serviceName: project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Demo_Employee
   packages:
@@ -75,6 +80,8 @@ services:
   - name: AlexDADAGitProject
     version: "1.0"
   - name: OpenWeatherClient
+    version: "1.0"
+  - name: PIE-87920
     version: "1.0"
 - serviceName: GitTest:GitTest
   packages:
