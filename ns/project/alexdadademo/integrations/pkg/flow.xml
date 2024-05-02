@@ -5,7 +5,11 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="PIE-87920" SERVICE="jsonSchemaTest:schemaTesting">
+<INVOKE NAME="AlexDADAGit2Project" SERVICE="Git2Testing:justDebugLog">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="AlexDADAGitProject" SERVICE="GitTest:gitTest2">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

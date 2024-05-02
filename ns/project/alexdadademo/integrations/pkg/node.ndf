@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">asam</value>
-    <value name="createdDate">1714637978343</value>
-    <value name="lastModifiedDate">1714637978343</value>
+    <value name="lastModifiedBy">asam</value>
+    <value name="lastModifiedDate">1714638171756</value>
     <value name="displayName">pkg</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -55,14 +54,30 @@
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">PIE-87920</value>
-          <value name="groupName">PIE-87920;1.0</value>
+          <value name="groupDisplayName">AlexDADAGit2Project</value>
+          <value name="groupName">AlexDADAGit2Project;1.0</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">jsonSchemaTest:schemaTesting</value>
-          <value name="serviceName">jsonSchemaTest:schemaTesting</value>
-          <value name="displayName">schemaTesting</value>
+          <value name="description">Git2Testing:justDebugLog</value>
+          <value name="serviceName">Git2Testing:justDebugLog</value>
+          <value name="displayName">justDebugLog</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">AlexDADAGitProject</value>
+          <value name="groupName">AlexDADAGitProject;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">GitTest:gitTest2</value>
+          <value name="serviceName">GitTest:gitTest2</value>
+          <value name="displayName">gitTest2</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
