@@ -11,21 +11,25 @@ packages:
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
 - name: OpenWeatherClient
+  version: "1.0"
   gitServerName: RAHS_Not_SAG
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: rahuldemocenter
   gitBranch: main
 - name: PIE-87920
+  version: "1.0"
   gitServerName: ArthurGithub
   gitUrl: https://github.com/agohpc
   gitUsername: agohpc
   gitBranch: master
 - name: AlexDADAGitProject
+  version: "1.0"
   gitServerName: AlexGit
   gitUrl: https://github.com/AlexFoo95
   gitUsername: AlexFoo95
   gitBranch: master
 - name: AlexDADAGit2Project
+  version: "1.0"
   gitServerName: AlexGit
   gitUrl: https://github.com/AlexFoo95
   gitUsername: AlexFoo95
@@ -107,6 +111,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.alexdadademo.integrations:t
+  packages:
+  - name: AlexDADADemoProject
+    version: "1.0"
+  - name: AlexDADAGitProject
+    version: "1.0"
+  - name: AlexDADAGit2Project
+    version: "1.0"
+  - name: PIE-87920
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
 configurationVariables:
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.trustStore
   : ""
