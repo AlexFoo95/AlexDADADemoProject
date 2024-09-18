@@ -139,6 +139,18 @@ services:
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
+- serviceName: project.alexdadademo.integrations:executeActionSI571294
+  packages:
+  - name: AlexDADADemoProject
+    version: "1.0"
+  - name: AlexDADAGitProject
+    version: "1.0"
+  - name: AlexDADAGit2Project
+    version: "1.0"
+  - name: PIE-87920
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
 configurationVariables:
   ? artConnection.AlexDADADemoProject.project.alexdadademo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Demo_Employee.connectionSettings.trustStore
   : ""
